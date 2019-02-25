@@ -1,0 +1,907 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #2d3436;
+   overflow-x: hidden;
+}
+
+.boxes
+{
+  position: relative;
+  bottom: 10%;
+  left: 80%;
+  width: 35px;
+  height: 35px;
+  background: #12CBC4;
+  z-index: 1;
+  display: none;
+  border-radius: 5px;
+}
+
+audio
+{
+  position: relative;
+  bottom: 0.5%;
+  left: 5%;
+}
+
+.head
+{
+	position: absolute;
+	top:0;
+	background: #f39c12;
+	width: 100%;
+	height: 50px;
+    border: 1px solid #f39c12;
+    margin: 0px auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.head h1,p
+{
+	float: left;
+	padding: 1px;
+	margin: 1px;
+	font-family: 'Staatliches', cursive;
+	color: #dfe6e9;
+	letter-spacing: 2px;
+	font-size: -20px;
+}
+
+.songs
+{
+	position: absolute;
+	margin-top: 350px;
+  top: 90%;
+  left: 50%;
+  border-style: 5px solid #d63031;
+  transform: translate(-50%,-50%);
+  background: #f39c12;
+  width: 600px;
+  height: 1650px;
+  transition: 1s;
+  font-size: 8px;
+  text-align: center;
+  align-items: center;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.songs .list h1,h6,h2
+{
+   letter-spacing: 1px;
+   font-size: 20px;
+   font-family: 'Hanalei Fill', cursive;
+   border-radius: 20px;
+
+}
+
+.songs .list h2:hover
+{
+	background: #fff;
+	color: #f39c12;
+}
+
+.load{
+  position: fixed;
+  top: 15%;
+  left: 10%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+.bar{
+  width: 6px;
+  height: 60px;
+  background: white;
+  display: inline-block;
+  transform-origin: bottom center;
+  animation: loading 1.5s ease-in-out infinite;
+}
+.bar1{
+  animation-delay: 0.1s;
+}
+.bar2{
+  animation-delay: 0.2s;
+}
+.bar3{
+  animation-delay: 0.3s;
+}
+.bar4{
+  animation-delay: 0.4s;
+}
+.bar5{
+  animation-delay: 0.5s;
+}
+.bar6{
+  animation-delay: 0.6s;
+}
+.bar7{
+  animation-delay: 0.7s;
+}
+.bar8{
+  animation-delay: 0.8s;
+}
+@keyframes loading {
+  0%{
+    transform: scaleY(0.1);
+    background: #fff;
+  }
+  50%{
+    transform: scaleY(1);
+    background: #2ecc71;
+  }
+  100%{
+    transform: scaleY(0.1);
+    background: transparent;
+  }
+}
+
+@media (max-width: 1200px)
+{
+    .songs
+{
+  position: absolute;
+  top: 170%;
+  left: 50%;
+  border-style: 5px solid #d63031;
+  transform: translate(-50%,-50%);
+  background: #f39c12;
+  width: 500px;
+  height: 2050px;
+  transition: 1s;
+  font-size: 8px;
+  text-align: center;
+  align-items: center;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+
+.songs .list h1,h6,h2
+{
+   letter-spacing: 1px;
+   font-size: 20px;
+   font-family: 'Hanalei Fill', cursive;
+   border-radius: 20px;
+
+}
+
+.songs .list h2:hover
+{
+  background: #fff;
+  color: #f39c12;
+}
+
+
+
+
+.load{
+  position: fixed;
+  top: 15%;
+  left: 10%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+.bar{
+  width: 6px;
+  height: 60px;
+  background: white;
+  display: inline-block;
+  transform-origin: bottom center;
+  animation: loading 1.5s ease-in-out infinite;
+}
+.bar1{
+  animation-delay: 0.1s;
+}
+.bar2{
+  animation-delay: 0.2s;
+}
+.bar3{
+  animation-delay: 0.3s;
+}
+.bar4{
+  animation-delay: 0.4s;
+}
+.bar5{
+  animation-delay: 0.5s;
+}
+.bar6{
+  animation-delay: 0.6s;
+}
+.bar7{
+  animation-delay: 0.7s;
+}
+.bar8{
+  animation-delay: 0.8s;
+}
+@keyframes loading {
+  0%{
+    transform: scaleY(0.1);
+    background: #fff;
+  }
+  50%{
+    transform: scaleY(1);
+    background: #2ecc71;
+  }
+  100%{
+    transform: scaleY(0.1);
+    background: transparent;
+  }
+}
+
+
+}
+
+@media (max-width: 1000px)
+{
+    .songs
+{
+  position: absolute;
+  top: 170%;
+  left: 50%;
+  border-style: 5px solid #d63031;
+  transform: translate(-50%,-50%);
+  background: #f39c12;
+  width: 500px;
+  height: 2050px;
+  transition: 1s;
+  font-size: 8px;
+  text-align: center;
+  align-items: center;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+
+.songs .list h1,h6,h2
+{
+   letter-spacing: 1px;
+   font-size: 20px;
+   font-family: 'Hanalei Fill', cursive;
+   border-radius: 20px;
+
+}
+
+.songs .list h2:hover
+{
+  background: #fff;
+  color: #f39c12;
+}
+
+
+
+
+.load{
+  position: fixed;
+  top: 15%;
+  left: 10%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+.bar{
+  width: 6px;
+  height: 60px;
+  background: white;
+  display: inline-block;
+  transform-origin: bottom center;
+  animation: loading 1.5s ease-in-out infinite;
+}
+.bar1{
+  animation-delay: 0.1s;
+}
+.bar2{
+  animation-delay: 0.2s;
+}
+.bar3{
+  animation-delay: 0.3s;
+}
+.bar4{
+  animation-delay: 0.4s;
+}
+.bar5{
+  animation-delay: 0.5s;
+}
+.bar6{
+  animation-delay: 0.6s;
+}
+.bar7{
+  animation-delay: 0.7s;
+}
+.bar8{
+  animation-delay: 0.8s;
+}
+@keyframes loading {
+  0%{
+    transform: scaleY(0.1);
+    background: #fff;
+  }
+  50%{
+    transform: scaleY(1);
+    background: #2ecc71;
+  }
+  100%{
+    transform: scaleY(0.1);
+    background: transparent;
+  }
+}
+
+
+}
+
+@media (max-width: 768px)
+{
+    .songs
+{
+  position: absolute;
+  top: 170%;
+  left: 50%;
+  border-style: 5px solid #d63031;
+  transform: translate(-50%,-50%);
+  background: #f39c12;
+  width: 450px;
+  height: 2050px;
+  transition: 1s;
+  font-size: 8px;
+  text-align: center;
+  align-items: center;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+
+.songs .list h1,h6,h2
+{
+   letter-spacing: 1px;
+   font-size: 20px;
+   font-family: 'Hanalei Fill', cursive;
+   border-radius: 20px;
+
+}
+
+.songs .list h2:hover
+{
+  background: #fff;
+  color: #f39c12;
+}
+
+
+
+
+.load{
+  position: fixed;
+  top: 15%;
+  left: 10%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+.bar{
+  width: 6px;
+  height: 60px;
+  background: white;
+  display: inline-block;
+  transform-origin: bottom center;
+  animation: loading 1.5s ease-in-out infinite;
+}
+.bar1{
+  animation-delay: 0.1s;
+}
+.bar2{
+  animation-delay: 0.2s;
+}
+.bar3{
+  animation-delay: 0.3s;
+}
+.bar4{
+  animation-delay: 0.4s;
+}
+.bar5{
+  animation-delay: 0.5s;
+}
+.bar6{
+  animation-delay: 0.6s;
+}
+.bar7{
+  animation-delay: 0.7s;
+}
+.bar8{
+  animation-delay: 0.8s;
+}
+@keyframes loading {
+  0%{
+    transform: scaleY(0.1);
+    background: #fff;
+  }
+  50%{
+    transform: scaleY(1);
+    background: #2ecc71;
+  }
+  100%{
+    transform: scaleY(0.1);
+    background: transparent;
+  }
+}
+
+
+}
+
+/*end for Desktop*/
+/*iphone 5/se*/
+@media (max-width: 320px)
+{
+	.songs
+{
+	position: absolute;
+  margin-top: 60px;
+  top: 60%;
+  left: 50%;
+  border-style: 5px solid #d63031;
+  transform: translate(-50%,-50%);
+  background: #f39c12;
+  width: 350px;
+  height: 850px;
+  transition: 1s;
+  font-size: 10px;
+  text-align: center;
+  align-items: center;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+
+.songs .list h1,h6,h2
+{
+   letter-spacing: 1px;
+   font-size: 20px;
+   font-family: 'Hanalei Fill', cursive;
+   border-radius: 20px;
+
+}
+
+.songs .list h2:hover
+{
+	background: #fff;
+	color: #f39c12;
+}
+
+
+
+
+.load{
+  position: fixed;
+  top: 15%;
+  left: 15%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+.bar{
+  width: 6px;
+  height: 60px;
+  background: white;
+  display: inline-block;
+  transform-origin: bottom center;
+  animation: loading 1.5s ease-in-out infinite;
+}
+.bar1{
+  animation-delay: 0.1s;
+}
+.bar2{
+  animation-delay: 0.2s;
+}
+.bar3{
+  animation-delay: 0.3s;
+}
+.bar4{
+  animation-delay: 0.4s;
+}
+.bar5{
+  animation-delay: 0.5s;
+}
+.bar6{
+  animation-delay: 0.6s;
+}
+.bar7{
+  animation-delay: 0.7s;
+}
+.bar8{
+  animation-delay: 0.8s;
+}
+@keyframes loading {
+  0%{
+    transform: scaleY(0.1);
+    background: #fff;
+  }
+  50%{
+    transform: scaleY(1);
+    background: #2ecc71;
+  }
+  100%{
+    transform: scaleY(0.1);
+    background: transparent;
+  }
+}
+
+audio
+{
+  position: fixed;  
+  bottom: -10%;
+  left: 5%;
+}
+
+.boxes
+{
+  position: absolute;
+  bottom: -8%;
+  left: 97%;
+  width: 25px;
+  height: 25px;
+  background: #12CBC4;
+  z-index: 1;
+  display: none;
+  border-radius: 10px;
+}
+
+
+}
+
+/*end for iphone 5/e*/
+/*samsung s5*/
+@media (max-width: 360px)
+{
+	.songs
+{
+	position: absolute;
+  margin-top: 60px;
+  top: 60%;
+  left: 50%;
+  border-style: 5px solid #d63031;
+  transform: translate(-50%,-50%);
+  background: #f39c12;
+  width: 375px;
+  height: 850px;
+  transition: 1s;
+  font-size: 8px;
+  text-align: center;
+  align-items: center;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+
+.songs .list h1,h6,h2
+{
+   letter-spacing: 1px;
+   font-size: 15px;
+   font-family: 'Hanalei Fill', cursive;
+   border-radius: 20px;
+
+}
+
+.songs .list h2:hover
+{
+	background: #fff;
+	color: #f39c12;
+}
+
+
+
+
+.load{
+  position: fixed;
+  top: 15%;
+  left: 15%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+.bar{
+  width: 6px;
+  height: 60px;
+  background: white;
+  display: inline-block;
+  transform-origin: bottom center;
+  animation: loading 1.5s ease-in-out infinite;
+}
+.bar1{
+  animation-delay: 0.1s;
+}
+.bar2{
+  animation-delay: 0.2s;
+}
+.bar3{
+  animation-delay: 0.3s;
+}
+.bar4{
+  animation-delay: 0.4s;
+}
+.bar5{
+  animation-delay: 0.5s;
+}
+.bar6{
+  animation-delay: 0.6s;
+}
+.bar7{
+  animation-delay: 0.7s;
+}
+.bar8{
+  animation-delay: 0.8s;
+}
+@keyframes loading {
+  0%{
+    transform: scaleY(0.1);
+    background: #fff;
+  }
+  50%{
+    transform: scaleY(1);
+    background: #2ecc71;
+  }
+  100%{
+    transform: scaleY(0.1);
+    background: transparent;
+  }
+}
+
+audio
+{
+  position: fixed;
+  bottom: -10%;
+  left: 5%;
+}
+
+.boxes
+{
+  position: absolute;
+  bottom: -8%;
+  left: 97%;
+  width: 25px;
+  height: 25px;
+  background: #12CBC4;
+  z-index: 1;
+  display: none;
+  border-radius: 10px;
+}
+
+
+}
+/*end for samsung 5*/
+
+/*iphone x*/
+
+@media (max-width: 375px)
+{
+  .songs
+{
+  position: absolute;
+  margin-top: 60px;
+  top: 50%;
+  left: 50%;
+  border-style: 5px solid #d63031;
+  transform: translate(-50%,-50%);
+  background: #f39c12;
+  width: 345px;
+  height: 850px;
+  transition: 1s;
+  font-size: 6px;
+  text-align: center;
+  align-items: center;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+
+.songs .list h1,h6,h2
+{
+   letter-spacing: 1px;
+   font-size: 10px;
+   font-family: 'Hanalei Fill', cursive;
+   border-radius: 20px;
+
+}
+
+.songs .list h2:hover
+{
+  background: #fff;
+  color: #f39c12;
+}
+
+
+
+
+.load{
+  position: fixed;
+  top: 15%;
+  left: 15%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+.bar{
+  width: 6px;
+  height: 60px;
+  background: white;
+  display: inline-block;
+  transform-origin: bottom center;
+  animation: loading 1.5s ease-in-out infinite;
+}
+.bar1{
+  animation-delay: 0.1s;
+}
+.bar2{
+  animation-delay: 0.2s;
+}
+.bar3{
+  animation-delay: 0.3s;
+}
+.bar4{
+  animation-delay: 0.4s;
+}
+.bar5{
+  animation-delay: 0.5s;
+}
+.bar6{
+  animation-delay: 0.6s;
+}
+.bar7{
+  animation-delay: 0.7s;
+}
+.bar8{
+  animation-delay: 0.8s;
+}
+@keyframes loading {
+  0%{
+    transform: scaleY(0.1);
+    background: #fff;
+  }
+  50%{
+    transform: scaleY(1);
+    background: #2ecc71;
+  }
+  100%{
+    transform: scaleY(0.1);
+    background: transparent;
+  }
+}
+
+audio
+{
+  position: fixed;
+  bottom: -10%;
+  left: 5%;
+}
+
+.boxes
+{
+  position: absolute;
+  bottom: -8%;
+  left: 97%;
+  width: 25px;
+  height: 25px;
+  background: #12CBC4;
+  z-index: 1;
+  display: none;
+  border-radius: 10px;
+}
+
+
+
+}
+
+/*end for iphone x*/
+/*iphone 6/7/8 plus*/
+
+@media (max-width: 414px)
+{
+  .songs
+{
+  position: absolute;
+  margin-top: 60px;
+  top: 60%;
+  left: 50%;
+  border-style: 5px solid #d63031;
+  transform: translate(-50%,-50%);
+  background: #f39c12;
+  width: 335px;
+  height: 850px;
+  transition: 1s;
+  font-size: 5px;
+  text-align: center;
+  align-items: center;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+
+.songs .list h1,h6,h2
+{
+   letter-spacing: 1px;
+   font-size: 10px;
+   font-family: 'Hanalei Fill', cursive;
+   border-radius: 20px;
+
+}
+
+.songs .list h2:hover
+{
+  background: #fff;
+  color: #f39c12;
+}
+
+
+
+
+.load{
+  position: fixed;
+  top: 15%;
+  left: 15%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+.bar{
+  width: 6px;
+  height: 60px;
+  background: white;
+  display: inline-block;
+  transform-origin: bottom center;
+  animation: loading 1.5s ease-in-out infinite;
+}
+.bar1{
+  animation-delay: 0.1s;
+}
+.bar2{
+  animation-delay: 0.2s;
+}
+.bar3{
+  animation-delay: 0.3s;
+}
+.bar4{
+  animation-delay: 0.4s;
+}
+.bar5{
+  animation-delay: 0.5s;
+}
+.bar6{
+  animation-delay: 0.6s;
+}
+.bar7{
+  animation-delay: 0.7s;
+}
+.bar8{
+  animation-delay: 0.8s;
+}
+@keyframes loading {
+  0%{
+    transform: scaleY(0.1);
+    background: #fff;
+  }
+  50%{
+    transform: scaleY(1);
+    background: #2ecc71;
+  }
+  100%{
+    transform: scaleY(0.1);
+    background: transparent;
+  }
+}
+
+
+audio
+{
+  position: fixed;
+  bottom: -10%;
+  left: 5%;
+}
+
+.boxes
+{
+  position: absolute;
+  bottom: -8%;
+  left: 97%;
+  width: 25px;
+  height: 25px;
+  background: #12CBC4;
+  z-index: 1;
+  display: none;
+  border-radius: 10px;
+}
+
+
+}
+/*end for iphone 6/7/8 plus*/
